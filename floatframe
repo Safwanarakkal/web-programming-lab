@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Floating frame</title>
+</head>
+<body>
+<center>
+<h2>Floating frame</h2>
+<p>THis is an example of an <strong>iframe</strong> that loads an external page</p>
+<iframe src="frames.html" width="600" hright="300" title="Exmple site">
+</iframe>
+</center>
+</body>
+</html>
