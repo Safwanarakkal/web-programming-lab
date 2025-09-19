@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>CSS Style</title>
+</head>
+<style>
+       p.{
+	text-align: center;
+	color: red;
+         }
+</style>
+<body>
+    <h2><center>CSS</center></h2>
+    <p>
+        Cascading Style Sheets, referred to as CSS, is a simple language intended 
+        to simplify the process of making web pages presentable. 
+        CSS allows you to apply style to web pages independent of the HTML 
+        that makes up each web page.
+    </p>
+    <p>There are three ways of inserting a style sheet:</p>
+    <ol>
+        <li>External CSS</li>
+        <li>Internal CSS</li>
+        <li>Inline CSS</li>
+    </ol>
+    <p>CSS Selectors</p>
+    <ol>
+       <li>CSS element selector</li>
+       <li>CSS id selector</li>
+       <li>CSS class selector</li>
+       <li>CSS universal selector</li>
+    </ol>
+<table border="1">
+<tr>
+	<th colspan="2"> <strong>CSS Properties</strong></th>
+</tr>
+<tr>
+	<td rowspan="2">CSS Background</td>
+	<td>background color</td>
+</tr>
+<tr>
+	<td>background image</td>
+</tr>
+<tr>
+	<td rowspan="4">CSS margins</td>
+	<td>margin-top</td>
+</tr>
+<tr>
+	<td>margin-right</td>
+</tr>
+<tr>
+	<td>margin-bottom</td>
+</tr>
+<tr>
+	<td>margin-left</td>
+</tr>
+</table>
+</body>
+</html>
+
