@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Registration form</title>
+<style>
+.registration{
+background-color:#edebeb;
+height:100px;
+width:1000px;
+border:2px solid black;
+}
+textarea {
+margin-left:90px;
+}
+legend{
+font-weight:bold;
+}
+.radio-group {
+display :flex;
+gap:30px;
+}
+.check-box {
+display :flex;
+gap:30px;
+}
+.Course {
+display:flex
+gap:30px;
+}
+.buttons {
+text-align:right;
+margin-right:220px;
+}
+</style>
+<center>
+<h1>REGISTRATION FORM<h1>
+</center> 
+<form>
+<div>
+<fieldset class="registration">
+<legend>User information</legend>
+<div class="form-group name-title-group">
+<label for="name">Name</label>
+<select id="title" name="title">
+<option value="Mr">Mr.</option>
+<option value="Ms">Ms.</option>
+<option value="Dr">Dr.</option>
+</select>
+<input type="text" id="name" name="name" required>
+</div>
+<br>
+<div>
+<label>Phone</label>
+<input type="tel"maxlength="10">
+<label>Email</label>
+<input type="email" required>
+</div>
+<br>
+</fieldset>
+</div>
+<br>
+<div>
+<label>Address</label>
+<textarea id="address" name="address"></textarea>
+</div>
+<br>
+<div class="radio-group">
+<label>Gender</label>
+<input type="radio" id="male" name="gender" value="male" required>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female" required>
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other" required>
+<label for="other">Other</label>
+</div>
+</div>
+<br>
+<div class="check-box">
+ <label>Languages known</label>
+<input type="checkbox" id="english" required>
+<label for="english">English</label>
+<input type="checkbox" id="malayalam" required>
+ <label for="malayalam">Malayalam</label>
+<input type="checkbox" id="hindi" required>
+<label for="hindi">Hindi</label>
+<input type="checkbox" id="tamil" required>
+<label for="tamil">Tamil</label>
+</div>
+<br>
+<div class="Course">
+<label for="Course">Course</label>
+ <select id="Course" name="Course">
+<option value="">Course</option>
+<option value="BCA">BCA</option>
+<option value="MCA">MCA</option>
+<option value="BBA">BBA</option>
+<option value="BTECH">BTECH</option>
+<option value="BCOM">BCOM</option>
+</select>
+</div>
+<br>
+<div class="buttons">
+<button type="reset">Reset</button>
+<button type="submit">Submit</button>
+</div>
+</div>
+</form>
+</body>
+</head>
+</html>
