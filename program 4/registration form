@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>register form</title>
+</head>
+<style>
+ body{font-family: Arial, sans-serif;
+      margin: 20px;
+     }
+.buttons {
+            text-align: right;
+            margin-top: 20px;
+         }
+</style>
+<body>
+<center><h1>REGISTRATION FORM</h1></center>
+<div>
+<fieldset class="container">
+<legend>user information</legend>
+<form>
+<div class="name">
+<label>NAME</label>
+<select id="title" name="title">
+<option value="Mr">Mr</option>
+<option value="Ms">Ms</option>
+<option value="Dr">Dr</option>
+</select>
+<input type="text" required>
+</div>
+<br>
+<div class="contact-info">
+<label for="phone">Phone</label>
+<input type="tel maxlenght=10" id="phone" name="phone" required>
+<class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+</div>
+</div>
+</div>
+</fieldset>
+<div class="form-group">
+<label for="address">Address</label>
+<textarea id="address" name="address"></textarea>
+</div>
+<div class="radio-group">
+<label>Gender</label>
+<input type="radio" id="male" name="gender" value="Male" required>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="Female" required>
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="Other" required>
+<label for="other">Other</label>
+</div>
+</div>
+<div class="Language">
+<label>Languages known</label>
+<input type="checkbox" id="english" name="Languages known" value="English">
+<label for="english">English</label>
+<input type="checkbox" id="malayalam" name="Languages known" value="Malayalam">
+<label for="malayalam">Malayalam</label>
+<input type="checkbox" id="hindi" name="Languages known" value="Hindi">
+<label for="hindi">Hindi</label>
+</div>
+<div class="course">
+<label for="course">Course</label>
+<select id="course" name="course">
+<option value="">Course</option>
+<option value="mca">MCA</option>
+<option value="mba">MBA</option>
+<option value="bba">BBA</option>
+<option value="bca">BCA</option>
+<option value="btech">BTECH</option>
+</select>
+</div>
+<div class="buttons">
+<button type="reset">Reset</button>
+<button type="submit">Submit</button>
+</div>
+</form>
+</body>
