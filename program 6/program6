@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+<body>
+<h2>JavaScript</h2>
+<script>
+document.write("<h3>Math Properties</h3>");
+document.write("PI value: " + Math.PI + "<br>");
+document.write("E (Euler's Number): " + Math.E + "<br>");
+document.write("Square root of 2: " + Math.SQRT2 + "<br>");
+document.write("Square root of 1/2: " + Math.SQRT1_2 + "<br>");
+document.write("Natural log of 2: " + Math.LN2 + "<br>");
+document.write("Natural log of 10: " + Math.LN10 + "<br><br>");
+document.write("<h3>Math Methods</h3>");
+document.write("Round 4.7: " + Math.round(4.7) + "<br>");
+document.write("Ceil 4.2: " + Math.ceil(4.2) + "<br>");
+document.write("Floor 4.8: " + Math.floor(4.8) + "<br>");
+document.write("Power 2^5: " + Math.pow(2, 5) + "<br>");
+document.write("Square root of 64: " + Math.sqrt(64) + "<br>");
+document.write("Absolute value of -10: " + Math.abs(-10) + "<br>");
+document.write("Random number (0–1): " + Math.random() + "<br><br>");
+document.write("<h3>String Methods</h3>");
+let text = "Safwan Abdul Majeed!";
+document.write("Original text: " + text + "<br>");
+document.write("Length: " + text.length + "<br>");
+document.write("Uppercase: " + text.toUpperCase() + "<br>");
+document.write("Lowercase: " + text.toLowerCase() + "<br>");
+document.write("Index of 'A': " + text.indexOf("A") + "<br>");
+document.write("Slice (0,10): " + text.slice(0,10) + "<br>");
+document.write("Character at position 4: " + text.charAt(4) + "<br>");
+document.write("Concatenate: " + text.concat(" Let's learn!") + "<br>");
+document.write("Includes 'Script'? " + text.includes("Script") + "<br>");
+</script>
+</body>
+</html>
+
