@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Program 7</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 200px;
+            background-color: #f0f0f0;
+        }
+
+        label {
+            font-size: 20px;
+            font-weight: bold;
+            display: block;
+            margin-top: 20px; /* space above the label */
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="changeBackground()">Click Me</button>
+    <label>To change background color</label>
+
+    <script>
+        function changeBackground() {
+            var r = Math.floor(Math.random() * 256);
+            var g = Math.floor(Math.random() * 256);
+            var b = Math.floor(Math.random() * 256);
+            document.body.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
+        }
+    </script>
+</body>
+</html>
+
